@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$("#btn-prueba").click(contenido);
+	$("#puntos-verticales").click(editarPerfil);
 	$('.modal-trigger').leanModal();
     $('.button-collapse').sideNav({
      	menuWidth: 230,
@@ -17,6 +18,9 @@ function contenido(evento){
 	$("#conten-ubers").addClass("ocultar");
 	$("#conten-pedido").removeClass("ocultar");
 	$("#btn-prueba").addClass("ocultar");
+}
+function editarPerfil(evento){
+	$(".editar").removeClass("ocultar");
 }
 
 var map;

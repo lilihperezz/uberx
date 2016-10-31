@@ -51,6 +51,7 @@ body {
     font-family: Verdana;
     border-bottom: 1px solid #6E6E6E;
     padding: 2%;
+    font-weight: bold;
 }
 .menu{
 	color: black;
@@ -183,7 +184,6 @@ body {
 	border-left: 1px solid #6E6E6E;
 }
 
-
 .btn-pedir {
     color: #fff;
     font-size: 14px;
@@ -275,10 +275,10 @@ input[type=text]{
     line-height: 20px;
     padding: 0 32px;
 }
-.font-size-13  {
+.texto-div {
     font-size: 13px;
 	text-align: center;    
 }
-.border-top-class  {
+.border-top {
 	border-top: 1px solid #6E6E6E;
 }
