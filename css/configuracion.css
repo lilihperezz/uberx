@@ -25,7 +25,7 @@
 }
 .fondo{
 	 background-color: #E6E6E6;
-	 padding: 8% 0%;
+	 padding: 6% 0%;
 	 border-bottom: 1px solid #A4A4A4;
 }
 .profile{
@@ -39,15 +39,18 @@
 }
 .caja1{
 	border-bottom: 1px solid #A4A4A4;
-	padding: 4% 0%;
+	padding: 3% 0%;
 }
 .caja2{
 	border-bottom: 1px solid #A4A4A4;
-	padding: 3% 0%;
+	padding: 2% 0%;
 }
 .text-span, .text{
 	margin-left: 4%;
 	color: #A4A4A4; 
+}
+.text,.txt{
+	font-size: 13px;
 }
 .txt,.span-correo{
 	margin-left: 2%;
@@ -59,9 +62,10 @@
 }
 .movil{
 	margin-left: -56%;
-	margin-top: 2%;
+	margin-top: 10%;
 	width: 66vw;
 	color: #A4A4A4;
+	border-bottom: 1px solid #A4A4A4;
 }
 .cruz{
 	font-size: 20px;
@@ -76,6 +80,8 @@
 	margin-left: 2%;
 	color: #088A85;
 	border-bottom: 1px solid #088A85;
+	font-weight: bold;
+	font-size: 13px;
 }
 
 .color-g{
