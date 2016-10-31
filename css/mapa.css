@@ -1,0 +1,284 @@
+::-webkit-input-placeholder { color: #151515}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
+#mapa{
+	width: 100vw;
+	height: 100vh;
+}
+.opciones{
+	margin-left: 10%;
+}
+.text{
+	color:#fff;
+}
+.side-nav a {
+	font-size: 19px;
+	margin-left: 3%; 
+}
+.side-nav{
+	background-color: #0C0D17;
+}
+.opciones{
+	display: inline-block;
+	color: #fff;
+	font-family: Arial;
+}
+.color{
+	color:#A4A4A4;
+	font-family: Arial;
+	font-size: 14px;
+}
+.divider{
+	margin-bottom: 3%;
+	background-color: #585858;
+}
+.lista{
+	margin-top: 2%;
+}
+.lista-top{
+	margin-top: 8%;
+}
+.titulo {
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana;
+    border-bottom: 1px solid #6E6E6E;
+    padding: 2%;
+}
+.menu{
+	color: black;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+}
+#icon{
+	color: black;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+}
+
+#conten-partida{
+	border: 1px solid #6E6E6E;
+	position: absolute;
+	z-index: 100;
+	background-color:#fff;
+	width: 96%;
+	left: 2%;
+	top: 9%;
+	border-radius: 2px;
+}
+.search{
+	color:gray;
+	margin-top: 60%;
+	margin-left: 40%;
+}
+.text-partida {
+    text-align: center;
+    color: #088A08;
+    font-size: 9px;
+    font-weight: bold;
+    padding-top: 1%;
+}
+#ubicacion-partida{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#start, #end  {
+	height: 14px;
+    font-size: 13px;
+    border-bottom: 0;
+	text-align: center;    
+}
+#conten-llegada{
+	border:1px solid #6E6E6E;
+	position: absolute;
+	z-index: 100;
+	background-color:#fff;
+	width: 96%;
+	left: 2%;
+	top: 9%;
+	text-align: center;
+	border-radius: 2px;
+}
+.conten-avenida{
+	height: 3rem;
+	text-align: center;
+	padding:3%;
+	font-size: 1.2em;
+	color:black;
+}
+#ubicacion-llegada{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+.punto{
+	margin-top: 60%;
+	margin-left: 40%;
+}
+.carro {
+    width: 45px;
+    height: 40px;
+    border: 3px double #6E6E6E;
+    padding: 3%;
+}
+#conten-ubers {
+    border: 1px solid #6E6E6E;
+    bottom: 0;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    left: 0;
+    width: 100%;
+    padding: 1%;
+}
+.text-x,.text-b,.text-bi{
+	color: #424242;
+	font-size: 12px;
+	text-align: center;
+}
+.conten-x,.conten-b,.conten-{
+	text-align: center;
+}
+.conten-carro{
+	padding: 1%;
+}
+#conten-pedido{
+	position: absolute;
+	z-index: 100;
+	bottom: 0%;
+	width: 94%;
+	left: 3%;
+	background-color: #fff;
+}
+
+.conten-efectivo{
+	border: 1px solid #6E6E6E;
+	padding: 1% 0%;
+	border-radius: 2px;
+}
+.conten-pool{
+	margin-top: 2%;
+}
+.btn,.btn-large{
+	background-color:#fff;
+	color: black;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	box-shadow: none;
+}
+.modal-trigger{
+	border-right: 1px solid #6E6E6E;
+	border-left: 1px solid #6E6E6E;
+}
+
+
+.btn-pedir {
+    color: #fff;
+    font-size: 14px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 2px;
+}
+
+.text-espera{
+	background-color: #fff;
+	width: 100%;
+	text-align: center;
+	font-size: 10px;
+	text-align: center;
+	color: #585858;
+	padding: 1%;
+}
+.circle-clipper .circle{
+	border-width: 2px;
+	border-color: #fff;
+}
+.time{
+	top: 16%;
+	position: absolute;
+	right: 3%;
+	font-size: 2.4rem;
+	color:#fff;
+}
+.btn i{
+	font-size: 1.6rem;
+}
+.text-market{
+	margin-top: 1%;
+	display: inline-block;
+	position: absolute;
+	left: 23%;
+	font-size: 11px;
+}
+
+
+input[type=text]{
+	margin-bottom: 0px;
+	box-shadow: none;
+}
+.sm{
+	margin: 0px;
+}
+
+.ocultar{
+	display: none;
+}
+#btn-prueba {
+    position: absolute;
+    bottom: 50%;
+    z-index: 100;
+    background-color: black;
+    color: #fff;
+    font-family: initial;
+    border-radius: 16px;
+    width: 80%;
+    text-align: left;
+    font-size: 12;
+    height: 6%;
+    padding-left: 2%;
+    left: 10%;
+}
+.form-control:focus {
+   	outline: -webkit-focus-ring-color auto 0px;
+ 	outline-style: none;
+    box-shadow: none;
+    border-color: lightgrey;
+}
+.classHead{
+	width: 98vw;
+	margin: 0 auto;
+}
+
+.lista {
+    margin-top: 0%;
+}
+.side-nav a {
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 38px;
+    line-height: 20px;
+    padding: 0 32px;
+}
+.font-size-13  {
+    font-size: 13px;
+	text-align: center;    
+}
+.border-top-class  {
+	border-top: 1px solid #6E6E6E;
+}

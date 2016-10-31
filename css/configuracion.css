@@ -1,0 +1,79 @@
+::-webkit-input-placeholder { font-weight :bold;}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.icono{
+	font-size: 25px;
+	margin-top: 40%;
+	position: absolute;
+	top: 0;
+	color:black;
+}
+h1{
+	font-size: 2em;
+	font-weight: bold;
+}
+.cabecera{
+	border-bottom: 1px solid gray;
+}
+.configuracion{
+	margin-bottom: 2%;
+}
+
+.foto{
+	 background-color: gray;
+}
+.profile{
+	border: 1px solid gray;
+    padding: 1.5%;
+    height: 100px;
+    width: 100px;
+}
+#correo,.password{
+	width: 100%;
+}
+
+.form-control,.btn-bandera{
+	border:transparent;
+	border-bottom: 1px solid #A4A4A4;
+	border-radius: 0px;
+}
+.datos{
+	margin-left: -2%;	
+	margin-top: 10%;
+}
+.email{
+	margin-top: 5%;
+}
+.text{
+	margin-top:8%;
+	margin-left: 3%;	
+}
+.bandera{
+	width: 25px;
+}
+
+.btn-bandera{
+ 	padding-top: 6% ;
+}
+.movil{
+	margin-left: -56%;
+	margin-top: 2%;
+	width: 66vw;
+}
+.caret{
+	font-size: 20px;
+}
+
+.borde{
+	border-bottom: 1px solid #D8D8D8;
+}
+/*.form-control:focus {
+   	outline: -webkit-focus-ring-color auto 0px;
+ 	outline-style: none;
+    box-shadow: none;
+    border-color: lightgrey;
+}
+*/

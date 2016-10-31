@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/registro.css">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="container-fluid registro">
+            <div class="row">
+                <div class="col-xs-2 col-lg-2">
+                    <a href="index.html"><span class="glyphicon glyphicon-arrow-left icono" aria-hidden="true"></span></a>
+                </div>
+                <div class="col-xs-10 col-lg-10">
+                    <h1>Regístrate</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row text-center redes">
+                <div class="col-xs-6 col-lg-6">
+                    <div class="borde">
+                        <a class="btn btn-default google" href="#" role="button"></a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-lg-6">
+                    <div class="borde">
+                        <a class="btn btn-default facebook" href="#" role="button"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">o</div>    
+            <div class="row datos">
+                 <div class="col-xs-6 col-lg-6">
+                    <!-- <p class="text">NOMBRE</p> -->
+                    <input name="nombre" id="nombre" placeholder="Nombre" type="text" required class="form-control">
+                </div>
+                <div class="col-xs-6 col-lg-6">
+                    <!-- <p class="text">APELLIDO</p> -->
+                    <input name="nombre" id="apellido" placeholder="Apellido" type="text" required class="form-control">
+                </div>
+            </div>        
+            <div class="row datos email">           
+                <div class="col-xs-12 col-lg-12">
+                    <!-- <p class="text">CORREO ELECTRÓNICO</p> -->
+                    <input name="correo" id="correo" placeholder="nombre@ejemplo.com" type="text" required class="form-control">
+                    <p class="text">Móvil</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-lg-6">
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-default dropdown-toggle btn-bandera" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="bandera" src="img/peru.png" alt="bandera"><b> +51</b> <span class="caret"></span>  
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><img class="bandera" src="img/usa.png" alt="bandera"> <b>U.S</b></a></li>
+                                <li><a href="#"><img class="bandera" src="img/uruguay.png" alt="bandera"> <b>Uruguay</b></a></li>
+                                <li><a href="#"><img class="bandera" src="img/chile.jpg" alt="bandera"> <b>Chile</b></a></li>
+                                <li><a href="#"><img class="bandera" src="img/mexico.png" alt="bandera"> <b>Mexico</b></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-lg-6 left"><!-- /btn-group -->
+                    <input id= "ingresarNumero" type="tel" class="form-control movil" aria-label="..." maxlength="9" placeholder="912345678">
+                </div>
+            </div>
+            <div class="row password">
+                <div class="col-xs-12 col-lg-12">
+                     <input name="contraseña" id="contraseña" placeholder="Contraseña" type="text" required class="form-control">
+                </div>
+            </div>            
+        </div> 
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <a id="btn-siguiente" class="next" role="button" href="mapa.html">SIGUIENTE</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
