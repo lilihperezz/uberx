@@ -3,34 +3,37 @@
 	margin: 0;
 	padding: 0;
 }
-section{
-	background-image:url(../img/fondo.png);
-	background-repeat: repeat;
-	background-size: cover;
-	height: 85vh;
+body{
+	 overflow-x:hidden;
 }
-
-.conten-img{
-	position: absolute;
-	z-index: 100;
-	top: 20%;
-	left: 21%;
+.fondo{
+	background-image:url(../img/fondo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 85vh;
+	width: 100vw;
+}
+.logo{
+	margin-top: 25%;
 }
 .sesion,.registro{
 	font-weight: bold;
-	font-size: 1.3em;
-}
-.btn-default {
-    padding: 20px 30px;
-    line-height: 1.3333333;
-    border-radius: 0px;
-    margin-top: 8%;
-    border: 2px solid black;
+	font-size: 1em;
 }
 .registro{
 	background-color: black;
 	color:#fff;
 }
 .conten-botones{
-	margin-top: 148%;
+	position: absolute;
+	bottom: 3%;
+	width: 100%;
+	left: 1%;
+}
+.btn-default {
+	padding: 15px;
+    line-height: 1.3333333;
+    border-radius: 0px;
+    border: 2px solid black;
 }
