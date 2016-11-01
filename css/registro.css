@@ -1,4 +1,4 @@
-::-webkit-input-placeholder { font-weight :bold;}
+::-webkit-input-placeholder { font-weight :bold}
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -67,7 +67,7 @@ h1{
 }
 .movil{
 	margin-left: -56%;
-	margin-top: 2%;
+	margin-top: 1%;
 	width: 66vw;
 }
 .caret{
@@ -92,10 +92,9 @@ h1{
 .borde{
 	border-bottom: 1px solid #D8D8D8;
 }
-/*.form-control:focus {
+.form-control:focus {
    	outline: -webkit-focus-ring-color auto 0px;
  	outline-style: none;
     box-shadow: none;
     border-color: lightgrey;
 }
-*/

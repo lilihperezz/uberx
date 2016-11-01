@@ -1,0 +1,77 @@
+::-webkit-input-placeholder { font-weight :bold}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#icon,.i,.icono{
+	color: black;
+	position: absolute;
+	margin-top: 15%;
+}
+.icono{
+	color: #01A9DB;
+}
+.titul {
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana;
+    padding: 2%;
+    font-weight: bold;
+}
+.cabecera{
+	border-bottom: 1px solid #6E6E6E;
+}
+.fondo{
+	 background-color: #E6E6E6;
+	 padding: 6% 0%;
+	 border-bottom: 1px solid #A4A4A4;
+}
+.profile{
+	border: 1px solid #A4A4A4;
+    padding: 0.5%;
+    height: 65px;
+    width: 65px;
+}
+.conten-datos,.conten-correo,.conten-movil{
+	padding: 3% 0%;
+}
+.text,.txt{
+	margin-left: 4%;
+	font-size: 13px;
+	color:#848484;
+}
+.txt{
+	margin-left: 10%;
+}
+.movil{
+	margin-left: -56%;
+	margin-top: 1%;
+	width: 66vw;
+	border-bottom: 1px solid #A4A4A4;
+}
+#correo{
+	width: 100%;
+}
+
+.form-control,.btn-bandera{
+	border:transparent;
+	border-bottom: 1px solid #A4A4A4;
+	border-radius: 0px;
+}
+.bandera{
+	width: 25px;
+}
+.btn-bandera{
+ 	padding-top: 6% ;
+}
+.caret{
+	font-size: 20px;
+}
+
+.form-control:focus {
+   	outline: -webkit-focus-ring-color auto 0px;
+ 	outline-style: none;
+    box-shadow: none;
+    border-color: lightgrey;
+}
