@@ -29,8 +29,9 @@ body{
 }
 .conten-botones{
 	position: absolute;
-	bottom: 4%;
+	bottom: 2%;
 	width: 100%;
+	padding: 2%;
 	left: 1%;
 }
 .btn-default {
