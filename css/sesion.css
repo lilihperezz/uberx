@@ -66,12 +66,12 @@
 	color: #fff;
 	font-size: 1.3em; 
     background-color: black;
-    width: 94vw;
-    height: 50px;
+    width: 90vw;
+    height: 40px;
     text-align: center;
     position: absolute;
-    padding-top: 2%;
-    margin-top: 15%;
+    padding: 2%;
+    margin-top: 10%;
 }
 
 .borde{
@@ -81,7 +81,7 @@
 }
 .resend{
 	position: absolute;
-	margin-top: 38%;
+	margin-top: 30%;
 	left: 20%;
 }
 .form-control:focus {
