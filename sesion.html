@@ -7,22 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/sesion.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-    <header class="cabecera">
-        <div class="container-fluid iniciar">
-            <div class="row">
-                <div class="col-xs-2 col-lg-2">
-                    <a href="index.html"><span class="glyphicon glyphicon-arrow-left icono" aria-hidden="true"></span></a>
-                </div>
-                <div class="col-xs-10 col-lg-10">
-                    <h1>Inicia sesión</h1>
-                </div>
-            </div>
-        </div>
-    </header>
     <section>
         <div class="container-fluid">
+            <div class="row cabecera">
+                <div class="col-xs-2 col-lg-2">
+                    <a href="index.html"><span class="icon-arrow-left2 icon" id="icono"></span></a>
+                </div>
+                <div class="col-xs-10 col-lg-10">
+                    <p class="titulo">Inicia sesión</p>
+                </div>
+            </div>
             <div class="row text-center redes">
                 <div class="col-xs-6 col-lg-6">
                     <div class="borde">
@@ -36,15 +33,17 @@
                 </div>
             </div>
             <div class="text-center">o</div>            
-            <div class="row datos email">           
-                <div class="col-xs-12 col-lg-12">
-                    <!-- <p class="text">CORREO ELECTRÓNICO</p> -->
-                    <input name="correo" id="correo" placeholder="nombre@ejemplo.com" type="text" required class="form-control">
+            <div class="conten-correo">       
+                <div class="row">           
+                    <div class="col-xs-12 col-lg-12">
+                        <p class="text">CORREO ELECTRÓNICO</p>
+                        <input name="correo" id="correo" placeholder="nombre@ejemplo.com" type="text" required class="form-control">
+                    </div> 
                 </div>
             </div>
             <div class="row password">
                 <div class="col-xs-12 col-lg-12">
-                 <!-- <p class="text"CONTRASEÑA</p> -->
+                    <p class="text">CONTRASEÑA</p>
                     <input name="contraseña" id="contraseña" placeholder="Contraseña" type="text" required class="form-control">
                 </div>
             </div>            
@@ -54,7 +53,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-xs-12 col-lg-12">
-                    <a id="btn-siguiente" class="sesion" role="button" href="mapa.html">INICIA SESIÓN</a>
+                    <a id="btn-sesion" role="button" href="mapa.html">INICIA SESIÓN</a>
                     <a class="resend" role="button" href="#">¿OLVIDASTE TU CONTRASEÑA?</a>
                 </div>
             </div>
