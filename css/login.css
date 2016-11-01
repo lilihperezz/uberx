@@ -11,11 +11,13 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 85vh;
+	height: 83vh;
 	width: 100vw;
 }
 .logo{
 	margin-top: 25%;
+	width: 200px;
+	height: 200px;
 }
 .sesion,.registro{
 	font-weight: bold;
@@ -27,12 +29,12 @@ body{
 }
 .conten-botones{
 	position: absolute;
-	bottom: 3%;
+	bottom: 4%;
 	width: 100%;
 	left: 1%;
 }
 .btn-default {
-	padding: 15px;
+	padding: 18px 20px;
     line-height: 1.3333333;
     border-radius: 0px;
     border: 2px solid black;
