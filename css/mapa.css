@@ -93,7 +93,7 @@ body {
 	font-size: 1.2em;
 	font-weight: bold;
 }
-#start, #end  {
+#txtInicio, #txtDestino  {
 	height: 14px;
     font-size: 13px;
     border-bottom: 0;

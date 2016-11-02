@@ -21,7 +21,7 @@
             <div class="userView">
                 <img class="background" src="img/fondo-perfil.jpg">
                 <a href="#"><img class="circle" src="img/perfil.png"></a>
-                <a class="name" href="#"><span class="white-text name">Lili Hualtibamba Pérez</span></a>
+                <a class="name" href="#"><label for="lblUsuarioLogin" ></label></a>
             </div>
         </li>
         <li class="lista-top"><a href="#"><span class="icon-credit-card"></span><span class="opciones">Pago</span></a></li>
@@ -47,7 +47,7 @@
                 <div class="col s11 m11 l11">
                     <div>
                         <p class="text-partida">PUNTO DE PARTIDA</p>
-                        <input id="start" type="text" required class="form-control" placeholder="Ingresa el punto de partida" onFocus="geolocate()">
+                        <input id="txtInicio" type="text" required class="form-control" placeholder="Ingresa el punto de partida" onFocus="geolocate()">
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                         <i class="material-icons search">search</i>  
                     </div>
                     <div class="col s11 m11 l11">
-                        <input id="end" type="text" required class="form-control" placeholder="Se requiere un destino" onFocus="geolocate()">
+                        <input id="txtDestino" type="text" required class="form-control" placeholder="Se requiere un destino" onFocus="geolocate()">
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                         </div>
                     </div>
                 <div class="col s4 m4 l4">
-                    <a class="waves-effect waves-light btn" href="#"><i class="material-icons left">payment</i>EFECTIVO</a>
+                    <a class="waves-effect waves-light btn" href="#"><i class="material-icons left">payment</i><b><label for="lblPrecio" class="name" ></label></b></a>
                     </div>
                 </div>
             </div>

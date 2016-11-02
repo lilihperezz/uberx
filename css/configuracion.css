@@ -122,10 +122,9 @@
 .ocultar{
 	display: none;
 }
-/*.form-control:focus {
+.form-control:focus {
    	outline: -webkit-focus-ring-color auto 0px;
  	outline-style: none;
     box-shadow: none;
     border-color: lightgrey;
 }
-*/
